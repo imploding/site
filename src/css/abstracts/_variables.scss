@@ -1,0 +1,53 @@
+/* VARIABLES */
+
+// Breakpoints
+$baby: 480px !default;
+$mama: 769px !default;
+$papa: 960px !default;
+$mega: 1280px !default;
+
+// Misc
+$container-width: 1080px;
+$radius: 4px;
+
+// Colours
+$orange: 			 hsl(21, 100%, 50%);
+$blue: 	 			 hsl(221, 91%, 28%);
+
+$grey: 				 hsl(239, 1%, 70%);
+
+$font-color: 	 hsl(225, 11%, 29%);
+$link-color: 	 $blue;
+$border-color: hsl(0, 0%, 83%);
+
+// Type
+@font-face {
+  font-family: 'Calibre';
+	src: url('../fonts/Calibre-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+	src: url('../fonts/Calibre-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Calibre';
+	src: url('../fonts/Calibre-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre';
+	src: url('../fonts/Calibre-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+$body: ('Calibre', 'Metric', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif);
+$base-font-size: 2.0rem;

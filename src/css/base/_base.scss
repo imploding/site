@@ -1,0 +1,42 @@
+/* BASE */
+
+*,
+::before,
+::after {
+	background-repeat: no-repeat; /* 1 */
+	box-sizing: border-box; /* 2 */
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+  @include clearfix();
+  margin: 0;
+  text-align: center;
+  line-height: 1.45;
+  font-family: $body;
+  color: $font-color;
+  font-size: $base-font-size;
+
+  @media(max-width: 760px) {
+    font-size: 2.2rem;
+  }
+}
+
+::selection {
+  color: #333;
+  background: #ff7924; /* WebKit/Blink Browsers */
+}
+
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ebebeb;
+}
