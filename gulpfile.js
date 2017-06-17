@@ -14,9 +14,9 @@ var gulp = require('gulp'),
 // PATHS
 var paths = {
     css: 'src/css/**/*.scss',
-    cssOut: 'public/assets/css/',
+    cssOut: 'assets/css/',
     js: 'src/js/**/*.js',
-    jsOut: 'public/assets/js/'
+    jsOut: 'assets/js/'
 };
 
 // BROWSER SYNC
@@ -24,7 +24,7 @@ gulp.task('browser-sync', function() {
   browserSync.init({
     reloadDelay: 50,
     // server: { baseDir: "~/Repos/" } /* static files */
-    proxy: 'bigpicture.dev'
+    proxy: 'site.dev'
   });
 });
 
