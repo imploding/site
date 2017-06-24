@@ -1,0 +1,17 @@
+.list--small {
+	margin-left: 2em;
+	text-align: left;
+	font-size: 1.8rem;
+	list-style-position: outside;
+
+	li {
+		list-style-type: disc;
+		margin-bottom: 0.1em;
+	}
+}
+
+.list--two {
+	columns: 2;
+	column-gap: 2.5em;
+	margin-left: 0em;
+}
