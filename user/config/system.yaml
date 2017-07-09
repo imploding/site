@@ -1,12 +1,14 @@
 absolute_urls: false
 
+timezone: 'Australia/Adelaide'
+
 home:
   alias: '/home'
 
 pages:
-  theme: antimatter
+  theme: matt
   markdown:
-    extra: false
+    extra: true
   process:
     markdown: true
     twig: false
@@ -26,10 +28,10 @@ twig:
 
 assets:
   css_pipeline: false
-  css_minify: true
-  css_rewrite: true
+  css_minify: false
+  css_rewrite: false
   js_pipeline: false
-  js_minify: true
+  js_minify: false
 
 errors:
   display: true

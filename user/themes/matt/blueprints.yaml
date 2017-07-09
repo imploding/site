@@ -1,0 +1,13 @@
+name: Matt
+version: 0.0.1
+description: "My personal site theme"
+icon: empire
+author:
+  name: Matt Thomas
+  email: matthew_t@me.com
+  url: http://mthomas.com.au
+homepage: https://github.com/imploding/site
+demo:
+keywords:
+bugs:
+license: MIT
