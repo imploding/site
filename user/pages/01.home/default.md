@@ -2,6 +2,6 @@
 title: Home
 ---
 
-# Grav is Running!
+# Home
 
 Party hardy equals tardy.

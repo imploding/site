@@ -15,10 +15,10 @@ var gulp = require('gulp'),
 
 // PATHS
 var paths = {
-    css: 'src/css/**/*.scss',
-    cssOut: 'assets/css/',
-    js: 'src/js/**/*.js',
-    jsOut: 'assets/js/'
+    css: 'user/themes/matt/src/css/**/*.scss',
+    cssOut: 'user/themes/matt/assets/css/',
+    js: 'user/themes/matt/src/js/**/*.js',
+    jsOut: 'user/themes/matt/assets/js/'
 };
 
 // BROWSER SYNC
@@ -74,5 +74,6 @@ gulp.task('shot', function() {
 gulp.task('default', ['browser-sync'], function () {
   gulp.watch(paths.css, ['css', 'bs-reload']);
   gulp.watch(paths.js, ['js', 'bs-reload']);
-  gulp.watch(['public/*.html'], ['bs-reload']);
+  gulp.watch(['user/themes/matt/templates/**/*.twig'], ['bs-reload']);
+  gulp.watch(['user/pages/**/*.md'], ['bs-reload']);
 });
