@@ -1,0 +1,11 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	{{ page.content }}
+	
+	{% for image in page.media.images %}
+		<img src="{{ image.url }}" alt="{{ page.title }}">
+	{% endfor %}
+
+	<a href="{{ page.header.album.preview }}">Preview Track</a>
+{% endblock %}

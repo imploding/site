@@ -9,3 +9,5 @@ content:
     limit: 12
     pagination: true
 ---
+
+I suck at reading, so I make myself finish one book a month. These are the books I've read this year.

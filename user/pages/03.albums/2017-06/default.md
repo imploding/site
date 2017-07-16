@@ -1,5 +1,8 @@
 ---
 title: This Old Dog – Mac DeMarco
----
 
-![This Old Dog](this-old-dog.jpg)
+template: album
+
+album:
+	preview: https://itun.es/au/MyB7ib?i=1223538781
+---
