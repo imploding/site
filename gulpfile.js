@@ -11,8 +11,6 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload;
 
-    const Pageres = require('pageres');
-
 // PATHS
 var paths = {
     css: 'user/themes/matt/src/css/**/*.scss',
@@ -60,14 +58,6 @@ gulp.task('js', function() {
     .on('error', gutil.log)
     .pipe(gulp.dest(paths.jsOut))
     .pipe(reload({stream:true}))
-});
-
-// SCREENSHOTS
-gulp.task('shot', function() {
-  const pageres = new Pageres({filename: "<%= url %>.<%= date %>.<%= time %>"})
-    .src('site.dev/test', ['1440x900'])
-    .dest("shots/")
-    .run();
 });
 
 // WATCH
