@@ -1,5 +1,5 @@
 ---
-title: Mellow Waves – Cornelius
+title: Sensorimotor – Lusine
 
 template: album
 
