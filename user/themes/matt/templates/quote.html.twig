@@ -1,0 +1,18 @@
+{% embed 'partials/base.html.twig' %}
+
+	{% set collection = page.collection() %}
+
+	{% block content %}
+
+		<div>
+			{% for child in collection %}
+				{{ child.content }}
+				<b>{{ child.header.quote.attribution }}</b>
+	    {% endfor %}
+		</div>
+
+	{% endblock %}
+
+{% endembed %}
+
+
