@@ -4,8 +4,11 @@
 <head>
 {% block head %}
   <meta charset="utf-8" />
+
   <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
   {% include 'partials/metadata.html.twig' %}
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
   <link rel="canonical" href="{{ page.url(true, true) }}" />
@@ -15,20 +18,18 @@
   {% endblock %}
   {{ assets.css() }}
 
-  {% block javascripts %}
-  {% endblock %}
-  {{ assets.js() }}
-
 {% endblock head %}
-
 </head>
+
 <body class="{{ page.header.body_classes }}">
 
   {% block header %}
   <header>
-    <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+    <a href="{{ base_url == '' ? '/' : base_url }}" class="header__logo">
+      <img src="{{ url('theme://assets/images/logo.svg') }}" alt="{{ config.site.title }}" width="75">
+    </a>
 
-    <nav>
+    <nav class="header__nav">
       {% block header_extra %}{% endblock %}
       {% block header_navigation %}
       {% include 'partials/navigation.html.twig' %}
@@ -49,6 +50,11 @@
   <footer>
   </footer>
   {% endblock %}
+
+
+  {% block javascripts %}
+  {% endblock %}
+  {{ assets.js() }}
 
 </body>
 </html>
