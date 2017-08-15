@@ -1,43 +1,33 @@
 /* FORMS */
 
-form {
-  text-align: left;
-}
-
 input {
-  &[type="email"],
-  &[type="number"],
-  &[type="search"],
-  &[type="submit"],
-  &[type="text"],
-  &[type="tel"],
-  &[type="url"],
-  &[type="password"] {
-    display: inline-block;
-    width: 100%;
-    padding: 0.5em 0.7em 0.6em;
-    margin: 0 0.5em 0.75em;
-    color: $font-color;
-    font-family: $body;
-    appearance: none;
-    border: 1px solid $border-color;
-    border-radius: 3px;
-    box-shadow: inset 0px 1px 3px rgba(0,0,0,0.1);
-    transition: all 0.2s ease;
-  }
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0 0 1em;
+  color: $font-color;
+  font-family: $body;
+  appearance: none;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+  box-shadow: inset 0px 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
 
   &::placeholder {
     color: lighten($font-color, 10%);
   }
+
+  &:focus {
+    border-color: darken($border-color, 20%);
+    outline: 0;
+  }
 }
 
 textarea {
-  width: 100%;
-  padding: 0.5em 0.7em 0.6em;
-  margin: 0 0.5em 0.75em;
+  padding: 0.5em;
+  margin: 0 0 1em;
   font-family: $body;
   border: 1px solid $border-color;
-  border-radius: 3px;
+  border-radius: $radius;
   box-shadow: inset 0px 1px 3px rgba(0,0,0,0.1);
   transition: all 0.2s ease;
   resize: none;
@@ -52,24 +42,7 @@ textarea {
   }
 }
 
-input {
-  &[type="email"]:focus,
-  &[type="number"]:focus,
-  &[type="search"]:focus,
-  &[type="submit"],
-  &[type="text"]:focus,
-  &[type="tel"]:focus,
-  &[type="url"]:focus,
-  &[type="password"]:focus {
-    border-color: darken($border-color, 20%);
-    outline: 0;
-  }
-}
-
 input[type="submit"] {
-  text-transform: uppercase;
-  color: #fff;
-  background-color: $orange;
   border: none;
   font-family: $body;
 }
@@ -79,28 +52,4 @@ input {
   &[type="radio"] {
     display: inline;
   }
-}
-
-select {
-}
-
-label,
-legend {
-  display: block;
-}
-
-fieldset {
-  padding: 0;
-}
-
-
-.enquiry-form {
-  margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.input--half {
-  flex: 1 1 47%;
 }

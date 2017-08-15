@@ -2,7 +2,6 @@
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     sass = require('gulp-sass'),
-    pixrem = require('gulp-pixrem'),
     prefix = require('gulp-autoprefixer'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
@@ -37,7 +36,6 @@ gulp.task('css', function () {
   gulp.src(paths.css)
     .pipe(sass())
     .on('error', gutil.log)
-    .pipe(pixrem())
     .pipe(prefix('last 3 versions'))
     .on('error', gutil.log)
     .pipe(gulp.dest(paths.cssOut))

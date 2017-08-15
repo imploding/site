@@ -2,53 +2,14 @@
 
 .button {
   display: inline-block;
-  padding: 0.6em 1.5em;
+  padding: 0.5em 1.5em;
   text-align: center;
   color: #fff;
   text-decoration: none;
   border-radius: $radius;
   background-color: $orange;
-  span {
-    position: relative;
-    z-index: 10;
-  }
+
   &:hover {
 
-  }
-}
-
-
-.button--white {
-  color: $grey;
-  background-color: #fff;
-}
-
-.button--hollow {
-  background-color: transparent;
-  border: 1px solid #fff;
-  position: relative;
-  overflow: hidden;
-  span {
-    color: #fff;
-    transition: 200ms ease color;
-  }
-  &:before {
-    content:'';
-    position: absolute;
-    z-index: 5;
-    transition: 400ms ease all;
-    top:0; left:0;
-    width: 400px;
-    height: 400px;
-    background: #fff;
-    transform: rotate(45deg) translate(-460px, 280px);
-  }
-  &:hover {
-    span {
-      color: $blue;
-    }
-    &:before {
-      transform: rotate(45deg) translate(-240px, 40px);
-    }
   }
 }

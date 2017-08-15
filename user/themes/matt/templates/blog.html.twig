@@ -18,10 +18,6 @@
           {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
         {% endif %}
 			</div>
-
-			<aside>
-				{% include 'partials/sidebar.html.twig' with {'blog':page} %}
-			</aside>
 		</div>
 
 	{% endblock %}

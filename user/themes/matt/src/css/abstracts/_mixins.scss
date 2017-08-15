@@ -10,7 +10,7 @@
 // Gradient Vertical
 @mixin vertical($startColor: #333, $endColor: #888) {
   background-color: $endColor;
-  background-image: (linear-gradient($startColor, $endColor 20%, $endColor));
+  background-image: (linear-gradient($startColor, $endColor));
   background-repeat: repeat-x;
 }
 

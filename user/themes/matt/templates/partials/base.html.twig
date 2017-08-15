@@ -11,7 +11,7 @@
   <link rel="canonical" href="{{ page.url(true, true) }}" />
 
   {% block stylesheets %}
-    {% do assets.addCss('theme://css/custom.css', 100) %}
+    {% do assets.addCss('theme://assets/css/style.css', 100) %}
   {% endblock %}
   {{ assets.css() }}
 
@@ -47,7 +47,6 @@
 
   {% block footer %}
   <footer>
-    <p>Made by me.</p>
   </footer>
   {% endblock %}
 
