@@ -23,7 +23,7 @@ gulp.task('browser-sync', function() {
   browserSync.init({
     reloadDelay: 50,
     // server: { baseDir: "~/Repos/" } /* static files */
-    proxy: 'site.dev'
+    proxy: 'site.test'
   });
 });
 

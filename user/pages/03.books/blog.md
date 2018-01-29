@@ -1,5 +1,5 @@
 ---
-title: 2017 Books
+title: Reading
 
 content:
     items: '@self.children'
@@ -10,4 +10,4 @@ content:
     pagination: true
 ---
 
-I suck at reading, so I make myself finish one book a month. These are the books I've read this year.
+I own a kindle, so paper book people hate me.

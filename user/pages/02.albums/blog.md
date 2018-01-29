@@ -1,5 +1,5 @@
 ---
-title: 2017 Albums
+title: Listening
 
 content:
     items: '@self.children'

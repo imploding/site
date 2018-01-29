@@ -18,10 +18,14 @@
   {% endblock %}
   {{ assets.css() }}
 
+  <link href="https://micro.blog/mthomas" rel="me" />
+
 {% endblock head %}
 </head>
 
-<body class="{{ page.header.body_classes }}">
+<body class="{{ page.header.body_classes }}" id="js-body">
+
+  <button id="js-theme-toggle">Toggle Theme</button>
 
   {% block header %}
   <header>
@@ -52,9 +56,7 @@
   {% endblock %}
 
 
-  {% block javascripts %}
-  {% endblock %}
-  {{ assets.js() }}
+  <script src="{{ url('theme://assets/js/main.js') }}" async></script>
 
 </body>
 </html>
