@@ -25,12 +25,15 @@
 
 <body class="{{ page.header.body_classes }}" id="js-body">
 
-  <button id="js-theme-toggle">Toggle Theme</button>
+  <figure id="js-theme-toggle">
+    <img class="theme--moon" src="{{ url('theme://assets/images/icon-moon.svg') }}" alt="Toggle Dark Mode">
+    <img class="theme--sun" src="{{ url('theme://assets/images/icon-sun.svg') }}" alt="Toggle Light Mode">
+  </figure>
 
   {% block header %}
   <header>
     <a href="{{ base_url == '' ? '/' : base_url }}" class="header__logo">
-      <img src="{{ url('theme://assets/images/logo.svg') }}" alt="{{ config.site.title }}" width="75">
+      <img src="{{ url('theme://assets/images/logo-fill.svg') }}" alt="{{ config.site.title }}" width="82">
     </a>
 
     <nav class="header__nav">

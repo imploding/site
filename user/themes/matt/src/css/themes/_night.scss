@@ -1,6 +1,29 @@
 // DARK MODE
 
 body.night {
-  color: #fff;
+  color: $night-font-color;
   background-color: $night;
+  transition: none;
+}
+
+
+#js-theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+}
+
+.day {
+  .theme--sun {
+    display: none;
+  }
+}
+
+.night {
+  .theme--moon {
+    display: none;
+  }
 }

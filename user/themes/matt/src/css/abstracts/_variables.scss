@@ -15,25 +15,25 @@ $orange: 			 hsl(21, 100%, 50%);
 $blue: 	 			 hsl(221, 91%, 28%);
 
 $grey: 				 hsl(239, 1%, 70%);
-$night:        hsl(0, 0%, 10%);
 
 $font-color: 	 hsl(0, 0%, 11%);
 $link-color: 	 $blue;
 $border-color: hsla(0, 0%, 0%, 0.25);
 
+$night:            hsl(0, 0%, 20%);
+$night-font-color: hsl(0, 0%, 100%);
+
 // Type
 @font-face {
   font-family: 'Calibre';
-	src: url('../fonts/CalibreWeb-Regular.woff2') format('woff2'),
-       url('../fonts/CalibreWeb-Regular.woff') format('woff');
+	src: url('../fonts/CalibreWeb-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Calibre';
-  src: url('../fonts/CalibreWeb-Medium.woff2') format('woff2'),
-       url('../fonts/CalibreWeb-Medium.woff') format('woff');
+  src: url('../fonts/CalibreWeb-Medium.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
