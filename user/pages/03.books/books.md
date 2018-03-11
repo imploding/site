@@ -9,5 +9,3 @@ content:
     limit: 12
     pagination: true
 ---
-
-I own a kindle, so paper book people hate me.

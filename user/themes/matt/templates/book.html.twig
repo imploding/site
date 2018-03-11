@@ -5,8 +5,7 @@
   {% for image in page.media.images %}
     {{ image.cropResize(600).quality(70).html('', page.title) }}
   {% endfor %}
-  
-  <div>{{ page.date|date("F") }} {{ page.date|date("Y") }}</div>
+
 
   <a href="{{ page.url }}">
     <h4>{{ page.title }}</h4>

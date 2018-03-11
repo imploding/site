@@ -1,0 +1,36 @@
+{% embed 'partials/base.html.twig' %}
+
+  {% set collection = page.collection() %}
+
+  {% block content %}
+
+    <div>
+      {{ page.content }}
+    </div>
+
+    <div>
+      {% for child in collection %}
+        {% for image in child.media.images %}
+          {{ image.cropResize(360).quality(70).html('', page.title) }}
+        {% endfor %}
+
+        <a href="{{ child.url }}">
+          <h4>{{ child.title }}</h4>
+          <h5>{{ child.header.details.attribution }}</h5>
+        </a>
+
+        {% if child.header.details.link %}
+          <a href="{{ child.header.details.link }}">Link</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div>
+      {% if config.plugins.pagination.enabled and collection.params.pagination %}
+        {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+      {% endif %}
+    </div>
+
+  {% endblock %}
+
+{% endembed %}

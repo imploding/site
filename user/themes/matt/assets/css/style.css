@@ -51,6 +51,7 @@
 html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: transparent;
   -ms-text-size-adjust: 100%;
