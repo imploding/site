@@ -1,0 +1,544 @@
+// Matt's Current Jams
+
+// What mood are you in?
+// 😇 peaceful ⛄️ chilled 😎 cool 💃 upbeat 🤟 rock ☠️ loud
+
+{
+  "jams": {
+    "title"  : "Let It Happen (Soulwax Remix)",
+    "artist" : "Tame Impala",
+    "album"  : "Currents B-Sides & Remixes",
+    "mood"   : "💃",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Lazarus",
+    "artist" : "David Bowie",
+    "album"  : "Blackstar",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "River Man",
+    "artist" : "Nick Drake",
+    "album"  : "Five Leaves Left",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Disconnection Notice",
+    "artist" : "Sonic Youth",
+    "album"  : "Murray Street",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Anonanimal",
+    "artist" : "Andrew Bird",
+    "album"  : "Noble Beast",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Electrified",
+    "artist" : "Ben Sollee",
+    "album"  : "Inclusions",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Twice",
+    "artist" : "Little Dragon",
+    "album"  : "Little Dragon",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Dayvan Cowboy",
+    "artist" : "Boards Of Canada",
+    "album"  : "Trans Canada Highway",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Booksmart Devil",
+    "artist" : "Silversun Pickups",
+    "album"  : "Pikul",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Bizness",
+    "artist" : "tUne-YarDs",
+    "album"  : "W H O K I L L",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "All There Is And More",
+    "artist" : "Mariam The Believer",
+    "album"  : "Blood Donation",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Firestarter",
+    "artist" : "Torre Florim DE STAAT",
+    "album"  : "Firestarter - Single",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Rinse Repeat",
+    "artist" : "Thrupence",
+    "album"  : "Rinse Repeat - Single",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Them Changes",
+    "artist" : "Thundercat",
+    "album"  : "Drunk",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Pyramid Song",
+    "artist" : "Radiohead",
+    "album"  : "Amnesiac",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Julep",
+    "artist" : "Punch Brothers",
+    "album"  : "The Phosphorescent Blues",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "What I Got",
+    "artist" : "Sublime",
+    "album"  : "Sublime",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Olson",
+    "artist" : "Boards of Canada",
+    "album"  : "Music Has the Right to Children",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Human Racing",
+    "artist" : "St. Vincent",
+    "album"  : "Marry Me",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "All The Trees Of The Field Will Clap Their Hands",
+    "artist" : "Sufjan Stevens",
+    "album"  : "Seven Swans",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Over the Ocean",
+    "artist" : "Here We Go Magic",
+    "album"  : "A Different Ship",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "See America Right",
+    "artist" : "The Mountain Goats",
+    "album"  : "See America Right",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Sister",
+    "artist" : "Sufjan Stevens",
+    "album"  : "Seven Swans",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Phantom Other",
+    "artist" : "Department of Eagles",
+    "album"  : "In Ear Park",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Not Too Amused",
+    "artist" : "Sebadoh",
+    "album"  : "Bakesale",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Do They Know",
+    "artist" : "Takuya Kuroda",
+    "album"  : "Zigzagger",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Nakamarra",
+    "artist" : "Hiatus Kaiyote",
+    "album"  : "Tawk Tomahawk",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Therapy",
+    "artist" : "yaeji",
+    "album"  : "Therapy - Single",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Swnerve",
+    "artist" : "Cid Rim",
+    "album"  : "Material",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Sail to the Sun (feat. Machinedrum)",
+    "artist" : "Angelica Bess",
+    "album"  : "Sail to the Sun - Single",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Mixed Emotions",
+    "artist" : "Ab-Soul",
+    "album"  : "Control System",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Brick Body Complex",
+    "artist" : "Open Mike Eagle",
+    "album"  : "Brick Body Kids Still Daydream",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Face It",
+    "artist" : "Wiki",
+    "album"  : "No Mountains In Manhattan",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Root Down (Free Zone Mix)",
+    "artist" : "Beastie Boys",
+    "album"  : "Ill Communication",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "None Shall Pass",
+    "artist" : "Aesop Rock",
+    "album"  : "None Shall Pass",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Feel Like I Do",
+    "artist" : "Disclosure & Al Green",
+    "album"  : "Moog for Love - EP",
+    "mood"   : "💃",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "BOOGIE",
+    "artist" : "BROCKHAMPTON",
+    "album"  : "SATURATION III",
+    "mood"   : "💃",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "this hits home",
+    "artist" : "The Mercury Program",
+    "album"  : "The Mercury Program",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Marigold",
+    "artist" : "Nirvana",
+    "album"  : "With The Lights Out",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Void",
+    "artist" : "Seekae",
+    "album"  : "The Sound of Trees Falling on People",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Walrus",
+    "artist" : "D.D Dumbo",
+    "album"  : "Utopia Defeated",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "The Meat Of Life",
+    "artist" : "Clem Snide",
+    "album"  : "The Meat Of Life",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Days to Come",
+    "artist" : "Bonobo",
+    "album"  : "Days to Come",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Thisgo Ball",
+    "artist" : "Machinedrum",
+    "album"  : "Want to 1 2?",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Free Room",
+    "artist" : "Ravyn Lenae",
+    "album"  : "Moon Shoes EP",
+    "mood"   : "⛄️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Milk Lizard",
+    "artist" : "The Dillinger Escape Plan",
+    "album"  : "Ire Works",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Tears",
+    "artist" : "Health",
+    "album"  : "Max Payne 3 (OST)",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "We'rewolf",
+    "artist" : "Every Time I Die",
+    "album"  : "The Big Dirty",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Prancer",
+    "artist" : "The Dillinger Escape Plan",
+    "album"  : "One of Us Is the Killer",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "07 Elle Fanning",
+    "artist" : "K.Flay",
+    "album"  : "I Stopped Caring in '96 - Everything is Nothing",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Sleepless",
+    "artist" : "Flume",
+    "album"  : "Flume",
+    "mood"   : "💃",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Feel Right (feat. Mystikal)",
+    "artist" : "Mark Ronson",
+    "album"  : "Uptown Special",
+    "mood"   : "💃",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "1 Thing",
+    "artist" : "Amerie",
+    "album"  : "Touch",
+    "mood"   : "💃",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Scenario",
+    "artist" : "A Tribe Called Quest",
+    "album"  : "The Low End Theory",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "I Spend My Days (Wishing Them Away)",
+    "artist" : "Employed To Serve",
+    "album"  : "The Warmth of a Dying Sun",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "16 Psyche",
+    "artist" : "Chelsea Wolfe",
+    "album"  : "Hiss Spun",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Hexagram",
+    "artist" : "Deftones",
+    "album"  : "Deftones",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Glutton",
+    "artist" : "Lo!",
+    "album"  : "Vestigial",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Wires",
+    "artist" : "I Heart Hiroshima",
+    "album"  : "Tuff Teef",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Feels Like Pain",
+    "artist" : "The Grates",
+    "album"  : "Gravity Won't Get You High",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Hubris",
+    "artist" : "Porshyne",
+    "album"  : "Environmental Music",
+    "mood"   : "🤟",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "When I Lost My Bet",
+    "artist" : "The Dillinger Escape Plan",
+    "album"  : "One of Us Is the Killer",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Eve",
+    "artist" : "Converge",
+    "album"  : "I Can Tell You About Pain - Single",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Yorha",
+    "artist" : "Hjärna Waves",
+    "album"  : "The Tower - EP",
+    "mood"   : "☠️",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "BUS RIDE (feat. Karriem Riggins & River Tiber)",
+    "artist" : "KAYTRANADA",
+    "album"  : "99.9%",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "untitled 02",
+    "artist" : "Kendrick Lamar",
+    "album"  : "untitled unmastered.",
+    "mood"   : "😎",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Spectre",
+    "artist" : "Radiohead",
+    "album"  : "Spectre - Single",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+
+}
