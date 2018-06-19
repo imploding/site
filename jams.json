@@ -540,5 +540,29 @@
     "art"    : "/.jpg",
     "link"   : ""
   }
+  {
+    "title"  : "Hotter Colder",
+    "artist" : "This Is The Kit",
+    "album"  : "Moonshine Freeze",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Sunson",
+    "artist" : "Nils Frahm",
+    "album"  : "All Melody",
+    "mood"   : "⛄",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
+  {
+    "title"  : "Thank You",
+    "artist" : "Bonnie Raitt",
+    "album"  : "Bonnie Raitt",
+    "mood"   : "😇",
+    "art"    : "/.jpg",
+    "link"   : ""
+  }
 
 }
