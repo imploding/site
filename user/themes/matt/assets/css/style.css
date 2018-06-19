@@ -1,5 +1,5 @@
 /*
-	Matt Thomas - 2017
+  Matt Thomas - 2017
 */
 /* MIXINS */
 /* VARIABLES */
@@ -28,24 +28,13 @@
   font-style: italic; }
 
 /* TOOLS */
-.u-cf {
-  zoom: 1; }
-  .u-cf:before, .u-cf:after {
-    display: table;
-    content: ''; }
-  .u-cf:after {
-    clear: both; }
-
 /* DEBUG */
 /* BASE */
 *,
 ::before,
 ::after {
-  background-repeat: no-repeat;
-  /* 1 */
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /* 2 */
   font-display: swap; }
 
 html {
@@ -58,24 +47,15 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
-  zoom: 1;
   margin: 0;
   text-align: center;
-  line-height: 1.45;
+  line-height: 1.4;
   font-family: "Calibre", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: #1c1c1c;
   font-size: 2rem;
   -webkit-transition: 0.2s ease background-color, 0.2s ease background-color;
   -o-transition: 0.2s ease background-color, 0.2s ease background-color;
   transition: 0.2s ease background-color, 0.2s ease background-color; }
-  body:before, body:after {
-    display: table;
-    content: ''; }
-  body:after {
-    clear: both; }
-  @media (max-width: 760px) {
-    body {
-      font-size: 2.2rem; } }
 
 ::-moz-selection {
   color: #fff;

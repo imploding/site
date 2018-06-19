@@ -3,8 +3,7 @@
 *,
 ::before,
 ::after {
-	background-repeat: no-repeat; /* 1 */
-	box-sizing: border-box; /* 2 */
+  box-sizing: border-box;
   font-display: swap;
 }
 
@@ -15,22 +14,17 @@ html {
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  @include clearfix();
   margin: 0;
   text-align: center;
-  line-height: 1.45;
+  line-height: 1.4;
   font-family: $body;
   color: $font-color;
   font-size: $base-font-size;
   transition: 0.2s ease background-color, 0.2s ease background-color;
-
-  @media(max-width: 760px) {
-    font-size: 2.2rem;
-  }
 }
 
 ::selection {
