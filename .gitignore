@@ -17,6 +17,10 @@ Temporary Items
 .apdisk
 .DS_Store
 
+node_modules/
+node_modules
+
+
 
 # SASS
 .sass-cache/
